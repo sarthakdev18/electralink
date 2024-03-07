@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectraLink</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&family=Montserrat:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <i class="ri-flashlight-line electricpe"></i> <p>Electra</p><p class="pe">Link</p>
+            </a>
+
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active_link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="ri-information-line"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#product" class="nav_link">
+                            <i class="ri-product-hunt-line"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#testimonial" class="nav_link">
+                            <i class="ri-message-3-line"></i>
+                            <span>Testimonial</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#testimonial" class="nav_link">
+                            <i class="ri-phone-line"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_action">
+                <i class="ri-moon-line change_theme" id="theme_button"></i>
+            </div>
+        </nav>
+
+        <div class="home_data" id="home">
+            <h1 class="title">Electrifying the Nation</h1>
+            <p class="content">Get an EV, Charging is sorted!</p>
+        </div>
+
+        <div class="buttons">
+            <a href="app-release.apk"><button type="button" href="" class="button">Download App</button></a>
+
+            <button type="button" href="#" class="button" onclick="document.getElementById('about').scrollIntoView()">Explore</button>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="about section" id="about">
+            <div class="about_container container grid">
+                <div class="about_data">
+                    <h1 class="about_title">
+                        About Us 👨‍💼
+                    </h1>
+
+                    <img src="Images/earth-removebg-preview.png" alt="image" class="about_img">
+
+                    <p>Imagine while on your journey with your electric vehicle, you receive a notification indicating a low battery. Fortunately, our dedicated app swiftly provides a solution. By accessing the app and navigating to the map feature, it seamlessly displays all the nearest charging stations, meticulously installed by our team. <br>
+                        You will promptly directed myself to the nearest charging station, allowing for a swift and efficient recharge of your vehicle. The streamlined process extends to the seamless payment of the charging cost through the app, ensuring a hassle-free experience for users like yourself.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info section">
+            <div class="info_container">
+                <img src="Images/banner.jpg" alt="image" class="info_img">
+
+                <div class="info_data container grid">
+                    <h1 class="info_title">ElectraLink Charging Infrastructure</h1>
+
+                    <p>With our platform, we aim to create a seamless and convenient experience for all those who want to switch to electric vehicles, and contribute towards a greener tomorrow. Fleet owners, housing societies, shops, offices, and co-working spaces can now easily manage their charging infrastructure and monitor usage through our user-friendly platform, further promoting sustainability.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dummy_data">
+            <div class="container counter_container">
+                <div>
+                    <h2 class="counter_numbers">6000</h2>
+                    <p>Chargers</p> 
+                </div>
+
+                <div>
+                    <h2 class="counter_numbers">8500</h2>
+                    <p>Customers</p>
+                </div>
+
+                <div>
+                    <h2 class="counter_numbers">10000</h2>
+                    <p>Bookings</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner section" id="banner">
+            <div class="banner_container container grid">
+                <div class="banner_data">
+                    <img src="Images/banner.jpeg" alt="images" class="banner_img">
+
+                    <h1 class="banner_title">EV Charging, Simplified <img src="Images/light-bulb.gif" alt="" class="lightbulb"></h1>
+                    
+                    <div class="icons">
+                        <img src="Images/qr-code.gif" alt="image" class="banner_icons">
+                        <h3 class="subtitle">SCAN</h3>
+                        <p class="banner_info">Find the nearest charging station and Scan the QR code</p>
+                    </div>
+
+                    <div class="icons">
+                        <img src="Images/eco-fuel.gif" alt="image" class="banner_icons">
+                        <h3 class="subtitle">CHARGE</h3>
+                        <p class="banner_info">Start charging your vehicle & Get live updates on the app</p>
+                    </div>
+
+                    <div class="icons">
+                        <img src="Images/payment-app.gif" alt="image" class="banner_icons">
+                        <h3 class="subtitle">PAY</h3>
+                        <p class="banner_info">Pay only for what you consume</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="product section" id="product">
+            <div class="product_container container grid">
+                <div class="product_data">
+                    <h1 class="pr_title">Find your first <br> EV charging station <img src="Images/pin.gif" alt="" class="pin"></h1>
+                </div>
+                <div class="location">
+                    <button type="button" onclick="window.location.href='https://www.google.com/maps/search/all+electric+ev+stations/@22.8280553,75.8117336,8.86z?entry=ttu'" class="location_button">View All Stations</button>
+                </div>                
+            </div>
+        </section>
+
+        <section class="card-section">
+            <div class="card" style="background-image: url('Images/Delhi.jpeg');">
+                <a href="https://www.google.com/maps/search/delhi+sll+ev+changing+section/@28.5928863,77.0267564,11z/data=!3m1!4b1?hl=en&entry=ttu" > Delhi
+                    <!-- <p>This is the content of card 1.</p> -->
+                </a>
+            </div>
+            <div class="card" style="background-image: url('Images/Banglore.jpeg');">
+                
+                <a href="https://www.google.com/maps?sca_esv=123152d4660d04db&rlz=1C5CHFA_enIN1015IN1015&output=search&q=bangalore+ev+charging+station+map&source=lnms&entry=mc"> Bangalore
+                </a>
+            </div>
+            <div class="card" style="background-image: url('Images/Hyderabad.jpeg');">
+                <a href="https://www.google.com/maps/search/hyderabad+ev+charging+station+map/@17.4168892,78.4362314,13z/data=!3m1!4b1?entry=ttu" > Hyderabad
+                    <!-- <p>This is the content of card 1.</p> -->
+                </a>
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <script>
+        $(document).ready(function() {
+            $(".counter_numbers").counterUp({
+                delay: 10,
+                time: 3000
+            });
+        });
+    </script>
+
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
